@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".MainActivity"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/verry_urgent_btn_image" />
+
+<!--            <EditText
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10dp"
+                android:paddingTop="25dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/mainname_text_image"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:paddingStart="10dp"
+                android:paddingTop="25dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/maindesease_text_image"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:paddingStart="10dp"
+                android:paddingTop="25dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/mainlocation_text_image"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/maindescroption_text_image"
+                tools:ignore="Autofill,LabelFor,TextFields" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginEnd="100dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="90dp" />
+
+            <EditText
+                android:id="@+id/homeName"
+                android:text="Prijilevschi Dumitru"
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:background="@drawable/rectangle"
+                android:hint="@string/your_name"
+                android:layout_marginBottom="30dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desease"
+                android:layout_marginEnd="90dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="80dp" />
+
+            <EditText
+                android:id="@+id/homeDesease"
+                android:text="@string/probleme_cu_un_picior"
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rectangle"
+                android:hint="@string/what_is_your_illness"
+                android:layout_marginBottom="30dp"
+                tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:layout_marginEnd="90dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="80dp" />
+
+            <EditText
+                android:id="@+id/homeLocation"
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Palo Alto"
+                android:background="@drawable/rectangle"
+                android:hint="@string/where_your_location"
+                android:layout_marginBottom="30dp"
+                tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_oprional"
+                android:layout_marginEnd="50dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="80dp" />
+
+            <EditText
+                android:id="@+id/homeDescrition"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:text="Some text"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="50dp"
+                android:background="@drawable/rectangle"
+                android:hint="@string/description_here"
+                android:layout_marginBottom="30dp"
+                tools:ignore="Autofill,RtlSymmetry,TextFields" />
+
+            <Button
+                android:id="@+id/requesnotifbtn"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:background="@drawable/request_btn_image" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

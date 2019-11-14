@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/optimized_default_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/welcome_text_image" />
+
+    <TextView
+        android:id="@+id/sometextText"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/some_text_image" />
+
+    <Button
+        android:id="@+id/signup2Btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:background="@drawable/signup_btn_image" />
+
+    <Button
+        android:id="@+id/login2Btn"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/login2_btn_image" />
+
+    <Button
+        android:id="@+id/urgentBtn"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/urgent_text_image" />
+
+
+
+</LinearLayout>
+</ScrollView>

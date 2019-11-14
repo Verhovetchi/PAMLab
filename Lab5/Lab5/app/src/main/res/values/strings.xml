@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hello">Hello</string>
+    <string name="logo">logo</string>
+    <string name="register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="schedule">Schedule</string>
+    <string name="profile">Profile</string>
+    <string name="add">Add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_fragment">Profile fragment</string>
+    <string name="schedule_fragment">Schedule fragment</string>
+    <string name="add_fragment">Add fragment</string>
+    <string name="request_details">Request details</string>
+    <string name="name_family">Name, Family</string>
+    <string name="description">Description</string>
+    <string name="doctor">Doctor</string>
+    <string name="schdeuleicon">Schdeule</string>
+    <string name="profileicon">Profile</string>
+    <string name="prijilevschi_dumitru">Prijilevschi Dumitru</string>
+    <string name="eye_specialist">Eye Specialist</string>
+    <string name="chisinau_str_studentilor">Chisinau str. Studentilor</string>
+    <string name="_10_0">10.0</string>
+    <string name="_10">10</string>
+    <string name="short_description">Short Description</string>
+    <string name="some_text">Lorem ipsum dolor sit amet, consectetur adipscing elit, t. Ut enim ad minim venia m, quis nostrud exercitation ullamco</string>
+    <string name="str_bronxlyn_212">str.Bronxlyn 212</string>
+    <string name="_1889_04_20">1889/04/20</string>
+    <string name="ad_hit7_gmail_com">ad.hit7@gmail.com</string>
+    <string name="_37368910111">+37368910111</string>
+    <string name="braunau_am_inn_austria">Braunau_am_Inn_Austria</string>
+    <string name="prijilevschi_dumitru1">Prijilevschi_Dumitru</string>
+    <string name="full_name">Full name</string>
+    <string name="birthday">Birthday</string>
+    <string name="dd_mm_yy">dd/mm/yy</string>
+    <string name="email">Email</string>
+    <string name="your_email">Your Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="location_address">Location/Address</string>
+    <string name="your_location">Your Location</string>
+    <string name="your_name">Your name</string>
+    <string name="desease">Desease</string>
+    <string name="what_is_your_illness">What is your illness</string>
+    <string name="location">Location</string>
+    <string name="where_your_location">Where your location</string>
+    <string name="description_oprional">Description ( Oprional)</string>
+    <string name="description_here">Description Here</string>
+    <string name="name">Name</string>
+    <string name="prijilevschi_dumitruf">Prijilevschi Dumitru</string>
+    <string name="ad_hit_gmail_com">ad_hit_gmail_com</string>
+    <string name="braunau_am_inn_austriaf">Braunau am inn Austria</string>
+    <string name="ad_hit_gmail_comf">ad.hit.gmail.com</string>
+    <string name="adolf_hitler_gmail_com">adolf.hitler@gmail.com</string>
+    <string name="_1234">1234</string>
+    <string name="account_birthday">Account Birthday</string>
+    <string name="probleme_cu_un_picior">Probleme cu un picior</string>
+    <string name="pijilevschi_dumitru">Pijilevschi Dumitru</string>
+</resources>

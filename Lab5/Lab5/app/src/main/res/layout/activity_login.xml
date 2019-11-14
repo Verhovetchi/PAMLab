@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/optimized_default_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/defaultlogImage"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/default_log"
+        android:contentDescription="@string/logo" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/email_block_image"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/adolf_hitler_gmail_com"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/password_block_image"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:text="@string/_1234"
+        android:paddingRight="50dp"
+        android:inputType="textPassword"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:background="@drawable/login_btn_image" />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        android:background="@drawable/signup_btn" />
+
+
+</LinearLayout>
+</ScrollView>

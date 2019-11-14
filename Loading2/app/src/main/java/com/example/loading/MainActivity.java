@@ -20,11 +20,13 @@ public class MainActivity extends AppCompatActivity {
         animation = (AnimationDrawable)loading.getDrawable();
     }
 
-    public void start(View v){
+    public void start(View v)
+    {
         animation.start();
     }
 
-    public void stop(View v){
+    public void stop(View v)
+    {
         animation.stop();
     }
 }
